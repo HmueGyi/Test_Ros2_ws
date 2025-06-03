@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[ 60%] Built target draw_cyc
+[ 60%] Built target subscriber
+[ 70%] Built target increment_num5_publisher
+[ 80%] Built target increment_publisher
+[ 90%] [32mBuilding CXX object CMakeFiles/draw_square.dir/src/square/draw_square.cpp.o[0m
+[100%] [32m[1mLinking CXX executable draw_square[0m
+[100%] Built target draw_square
+-- Install configuration: ""
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_cyc
+-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_square
+-- Set runtime path of "/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_square" to ""
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/increment_publisher
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/increment_num5_publisher
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/subscriber
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/package_run_dependencies/homework_pkg
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/parent_prefix_path/homework_pkg
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/path.sh
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/path.dsv
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.bash
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.sh
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.zsh
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.dsv
+-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/package.dsv
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/packages/homework_pkg
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/cmake/homework_pkgConfig.cmake
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/cmake/homework_pkgConfig-version.cmake
+-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/package.xml

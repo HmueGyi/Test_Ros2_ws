@@ -1,0 +1,34 @@
+[0.016s] Invoking command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg -- -j12 -l12
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[0.102s] [ 60%] Built target draw_cyc
+[0.102s] [ 60%] Built target subscriber
+[0.102s] [ 70%] Built target increment_num5_publisher
+[0.102s] [ 80%] Built target increment_publisher
+[0.108s] [ 90%] [32mBuilding CXX object CMakeFiles/draw_square.dir/src/square/draw_square.cpp.o[0m
+[5.228s] [100%] [32m[1mLinking CXX executable draw_square[0m
+[5.433s] [100%] Built target draw_square
+[5.449s] Invoked command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg -- -j12 -l12
+[5.464s] Invoking command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg
+[5.472s] -- Install configuration: ""
+[5.473s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_cyc
+[5.473s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_square
+[5.476s] -- Set runtime path of "/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_square" to ""
+[5.476s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/increment_publisher
+[5.476s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/increment_num5_publisher
+[5.477s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/subscriber
+[5.477s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/package_run_dependencies/homework_pkg
+[5.477s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/parent_prefix_path/homework_pkg
+[5.477s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/ament_prefix_path.sh
+[5.478s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/ament_prefix_path.dsv
+[5.478s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/path.sh
+[5.478s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/path.dsv
+[5.478s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.bash
+[5.478s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.sh
+[5.478s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.zsh
+[5.478s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.dsv
+[5.478s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/package.dsv
+[5.478s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/packages/homework_pkg
+[5.478s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/cmake/homework_pkgConfig.cmake
+[5.478s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/cmake/homework_pkgConfig-version.cmake
+[5.479s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/package.xml
+[5.482s] Invoked command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg

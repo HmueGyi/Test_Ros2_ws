@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000954] (homework_pkg) JobQueued: {'identifier': 'homework_pkg', 'dependencies': OrderedDict()}
+[0.001136] (homework_pkg) JobStarted: {'identifier': 'homework_pkg'}
+[0.010868] (homework_pkg) JobProgress: {'identifier': 'homework_pkg', 'progress': 'cmake'}
+[0.011517] (homework_pkg) JobProgress: {'identifier': 'homework_pkg', 'progress': 'build'}
+[0.012405] (homework_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg', '--', '-j12', '-l12'], 'cwd': '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hmuegyi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hmuegyi'), ('OLDPWD', '/home/hmuegyi/Documents/Test_Ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1444'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=31b0d17e80a1dd1e5d668cb3683f08f3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hmuegyi/Documents/Test_ROS2_ws/install:/home/hmuegyi/hmue_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hmuegyi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hmuegyi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hmuegyi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Mybot-Modern-14-C5M:@/tmp/.ICE-unix/1444,unix/Mybot-Modern-14-C5M:/tmp/.ICE-unix/1444'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d025277d_237d_4d6b_8abc_c7860fe841b4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.V0AL72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.222'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hmuegyi/Documents/Test_ROS2_ws/install/hw_pkg:/home/hmuegyi/hmue_ws/install/hmue_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=31b0d17e80a1dd1e5d668cb3683f08f3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hmuegyi/Documents/Test_ROS2_ws/install/hw_pkg:/home/hmuegyi/hmue_ws/install/hmue_pkg:/opt/ros/humble')]), 'shell': False}
+[0.046929] (homework_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099686] (-) TimerEvent: {}
+[0.187635] (homework_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199786] (-) TimerEvent: {}
+[0.221061] (homework_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.223580] (homework_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.229949] (homework_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.241839] (homework_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.255430] (homework_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.293261] (homework_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.294654] (homework_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299876] (-) TimerEvent: {}
+[0.400203] (-) TimerEvent: {}
+[0.434277] (homework_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.486873] (homework_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.499542] (homework_pkg) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.500286] (-) TimerEvent: {}
+[0.516744] (homework_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.533920] (homework_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.573106] (homework_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600403] (-) TimerEvent: {}
+[0.654878] (homework_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.655293] (homework_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.655419] (homework_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.656147] (homework_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.657799] (homework_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.657941] (homework_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.658459] (homework_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.659345] (homework_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.684802] (homework_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.694789] (homework_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg\n'}
+[0.700498] (-) TimerEvent: {}
+[0.746932] (homework_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/increment_num5_publisher.dir/src/AddTwoInteger/increment_num5_publisher.cpp.o\x1b[0m\n'}
+[0.747277] (homework_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/AddTwoInteger/subscriber.cpp.o\x1b[0m\n'}
+[0.747390] (homework_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/src/square/draw_square.cpp.o\x1b[0m\n'}
+[0.747486] (homework_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/draw_cyc.dir/src/cycle/draw_cycle.cpp.o\x1b[0m\n'}
+[0.747578] (homework_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/increment_publisher.dir/src/AddTwoInteger/increment_publisher.cpp.o\x1b[0m\n'}
+[0.800667] (-) TimerEvent: {}
+[0.901181] (-) TimerEvent: {}
+[1.001687] (-) TimerEvent: {}
+[1.102165] (-) TimerEvent: {}
+[1.202677] (-) TimerEvent: {}
+[1.303240] (-) TimerEvent: {}
+[1.403865] (-) TimerEvent: {}
+[1.504519] (-) TimerEvent: {}
+[1.605183] (-) TimerEvent: {}
+[1.705807] (-) TimerEvent: {}
+[1.806443] (-) TimerEvent: {}
+[1.907101] (-) TimerEvent: {}
+[2.007611] (-) TimerEvent: {}
+[2.108046] (-) TimerEvent: {}
+[2.208510] (-) TimerEvent: {}
+[2.308928] (-) TimerEvent: {}
+[2.409417] (-) TimerEvent: {}
+[2.509852] (-) TimerEvent: {}
+[2.610309] (-) TimerEvent: {}
+[2.710745] (-) TimerEvent: {}
+[2.811239] (-) TimerEvent: {}
+[2.911673] (-) TimerEvent: {}
+[3.012124] (-) TimerEvent: {}
+[3.112557] (-) TimerEvent: {}
+[3.212960] (-) TimerEvent: {}
+[3.313383] (-) TimerEvent: {}
+[3.413775] (-) TimerEvent: {}
+[3.514198] (-) TimerEvent: {}
+[3.614669] (-) TimerEvent: {}
+[3.715130] (-) TimerEvent: {}
+[3.815572] (-) TimerEvent: {}
+[3.915994] (-) TimerEvent: {}
+[4.016437] (-) TimerEvent: {}
+[4.116864] (-) TimerEvent: {}
+[4.217320] (-) TimerEvent: {}
+[4.317763] (-) TimerEvent: {}
+[4.418177] (-) TimerEvent: {}
+[4.518583] (-) TimerEvent: {}
+[4.619013] (-) TimerEvent: {}
+[4.719426] (-) TimerEvent: {}
+[4.819808] (-) TimerEvent: {}
+[4.920218] (-) TimerEvent: {}
+[5.020635] (-) TimerEvent: {}
+[5.121029] (-) TimerEvent: {}
+[5.221445] (-) TimerEvent: {}
+[5.321846] (-) TimerEvent: {}
+[5.422246] (-) TimerEvent: {}
+[5.522625] (-) TimerEvent: {}
+[5.623043] (-) TimerEvent: {}
+[5.723484] (-) TimerEvent: {}
+[5.765406] (homework_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable increment_publisher\x1b[0m\n'}
+[5.812547] (homework_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[5.823586] (-) TimerEvent: {}
+[5.864754] (homework_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable draw_cyc\x1b[0m\n'}
+[5.923758] (-) TimerEvent: {}
+[6.024226] (-) TimerEvent: {}
+[6.034115] (homework_pkg) StdoutLine: {'line': b'[ 80%] Built target increment_publisher\n'}
+[6.047738] (homework_pkg) StdoutLine: {'line': b'[ 80%] Built target draw_square\n'}
+[6.092940] (homework_pkg) StdoutLine: {'line': b'[ 80%] Built target draw_cyc\n'}
+[6.124589] (-) TimerEvent: {}
+[6.225336] (-) TimerEvent: {}
+[6.325931] (-) TimerEvent: {}
+[6.426303] (-) TimerEvent: {}
+[6.526910] (-) TimerEvent: {}
+[6.627540] (-) TimerEvent: {}
+[6.728311] (-) TimerEvent: {}
+[6.828654] (-) TimerEvent: {}
+[6.928992] (-) TimerEvent: {}
+[7.029360] (-) TimerEvent: {}
+[7.129706] (-) TimerEvent: {}
+[7.230048] (-) TimerEvent: {}
+[7.330516] (-) TimerEvent: {}
+[7.430868] (-) TimerEvent: {}
+[7.531248] (-) TimerEvent: {}
+[7.631594] (-) TimerEvent: {}
+[7.731937] (-) TimerEvent: {}
+[7.832311] (-) TimerEvent: {}
+[7.932658] (-) TimerEvent: {}
+[8.032983] (-) TimerEvent: {}
+[8.133339] (-) TimerEvent: {}
+[8.233683] (-) TimerEvent: {}
+[8.334019] (-) TimerEvent: {}
+[8.434473] (-) TimerEvent: {}
+[8.534862] (-) TimerEvent: {}
+[8.635243] (-) TimerEvent: {}
+[8.735622] (-) TimerEvent: {}
+[8.836006] (-) TimerEvent: {}
+[8.936387] (-) TimerEvent: {}
+[9.036753] (-) TimerEvent: {}
+[9.137129] (-) TimerEvent: {}
+[9.237478] (-) TimerEvent: {}
+[9.337835] (-) TimerEvent: {}
+[9.438273] (-) TimerEvent: {}
+[9.538638] (-) TimerEvent: {}
+[9.638992] (-) TimerEvent: {}
+[9.739359] (-) TimerEvent: {}
+[9.767576] (homework_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[9.839483] (-) TimerEvent: {}
+[9.939845] (-) TimerEvent: {}
+[9.948599] (homework_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable increment_num5_publisher\x1b[0m\n'}
+[10.039963] (-) TimerEvent: {}
+[10.070249] (homework_pkg) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[10.140226] (-) TimerEvent: {}
+[10.231309] (homework_pkg) StdoutLine: {'line': b'[100%] Built target increment_num5_publisher\n'}
+[10.240117] (-) TimerEvent: {}
+[10.241671] (homework_pkg) CommandEnded: {'returncode': 0}
+[10.242519] (homework_pkg) JobProgress: {'identifier': 'homework_pkg', 'progress': 'install'}
+[10.250998] (homework_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg'], 'cwd': '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hmuegyi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hmuegyi'), ('OLDPWD', '/home/hmuegyi/Documents/Test_Ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1444'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=31b0d17e80a1dd1e5d668cb3683f08f3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hmuegyi/Documents/Test_ROS2_ws/install:/home/hmuegyi/hmue_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hmuegyi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hmuegyi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hmuegyi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Mybot-Modern-14-C5M:@/tmp/.ICE-unix/1444,unix/Mybot-Modern-14-C5M:/tmp/.ICE-unix/1444'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d025277d_237d_4d6b_8abc_c7860fe841b4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.V0AL72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.222'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hmuegyi/Documents/Test_ROS2_ws/install/hw_pkg:/home/hmuegyi/hmue_ws/install/hmue_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=31b0d17e80a1dd1e5d668cb3683f08f3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hmuegyi/Documents/Test_ROS2_ws/install/hw_pkg:/home/hmuegyi/hmue_ws/install/hmue_pkg:/opt/ros/humble')]), 'shell': False}
+[10.258029] (homework_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.258194] (homework_pkg) StdoutLine: {'line': b'-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_cyc\n'}
+[10.259378] (homework_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_cyc" to ""\n'}
+[10.259495] (homework_pkg) StdoutLine: {'line': b'-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_square\n'}
+[10.260557] (homework_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_square" to ""\n'}
+[10.260676] (homework_pkg) StdoutLine: {'line': b'-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/increment_publisher\n'}
+[10.261739] (homework_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/increment_publisher" to ""\n'}
+[10.261847] (homework_pkg) StdoutLine: {'line': b'-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/increment_num5_publisher\n'}
+[10.265436] (homework_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/increment_num5_publisher" to ""\n'}
+[10.265551] (homework_pkg) StdoutLine: {'line': b'-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/subscriber\n'}
+[10.268776] (homework_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/subscriber" to ""\n'}
+[10.268906] (homework_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/package_run_dependencies/homework_pkg\n'}
+[10.268980] (homework_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/parent_prefix_path/homework_pkg\n'}
+[10.269123] (homework_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/ament_prefix_path.sh\n'}
+[10.269192] (homework_pkg) StdoutLine: {'line': b'-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/ament_prefix_path.dsv\n'}
+[10.269414] (homework_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/path.sh\n'}
+[10.269830] (homework_pkg) StdoutLine: {'line': b'-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/path.dsv\n'}
+[10.269981] (homework_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.bash\n'}
+[10.270075] (homework_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.sh\n'}
+[10.270158] (homework_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.zsh\n'}
+[10.270217] (homework_pkg) StdoutLine: {'line': b'-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.dsv\n'}
+[10.270431] (homework_pkg) StdoutLine: {'line': b'-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/package.dsv\n'}
+[10.270761] (homework_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/packages/homework_pkg\n'}
+[10.270851] (homework_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/cmake/homework_pkgConfig.cmake\n'}
+[10.270906] (homework_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/cmake/homework_pkgConfig-version.cmake\n'}
+[10.270972] (homework_pkg) StdoutLine: {'line': b'-- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/package.xml\n'}
+[10.273447] (homework_pkg) CommandEnded: {'returncode': 0}
+[10.293572] (homework_pkg) JobEnded: {'identifier': 'homework_pkg', 'rc': 0}
+[10.294114] (-) EventReactorShutdown: {}

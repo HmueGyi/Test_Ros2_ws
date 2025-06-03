@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000194] (homework_pkg) JobQueued: {'identifier': 'homework_pkg', 'dependencies': OrderedDict()}
+[0.000733] (homework_pkg) JobStarted: {'identifier': 'homework_pkg'}
+[0.010943] (homework_pkg) JobProgress: {'identifier': 'homework_pkg', 'progress': 'cmake'}
+[0.011709] (homework_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/hmuegyi/Documents/Test_Ros2_ws/src/homework_pkg', '-DCMAKE_INSTALL_PREFIX=/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg'], 'cwd': '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hmuegyi'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hmuegyi'), ('OLDPWD', '/home/hmuegyi/Documents/Test_Ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1444'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=31b0d17e80a1dd1e5d668cb3683f08f3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hmuegyi/Documents/Test_ROS2_ws/install:/home/hmuegyi/hmue_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hmuegyi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hmuegyi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hmuegyi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Mybot-Modern-14-C5M:@/tmp/.ICE-unix/1444,unix/Mybot-Modern-14-C5M:/tmp/.ICE-unix/1444'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d025277d_237d_4d6b_8abc_c7860fe841b4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.V0AL72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.222'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hmuegyi/Documents/Test_ROS2_ws/install/hw_pkg:/home/hmuegyi/hmue_ws/install/hmue_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=31b0d17e80a1dd1e5d668cb3683f08f3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hmuegyi/Documents/Test_ROS2_ws/install/hw_pkg:/home/hmuegyi/hmue_ws/install/hmue_pkg:/opt/ros/humble')]), 'shell': False}
+[0.086292] (homework_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099660] (-) TimerEvent: {}
+[0.156042] (homework_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.165059] (homework_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199808] (-) TimerEvent: {}
+[0.259079] (homework_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.266708] (homework_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.267044] (homework_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.267500] (homework_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.270895] (homework_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299927] (-) TimerEvent: {}
+[0.374753] (homework_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.382666] (homework_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.383049] (homework_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.383575] (homework_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.391632] (homework_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400011] (-) TimerEvent: {}
+[0.500318] (-) TimerEvent: {}
+[0.578209] (homework_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600417] (-) TimerEvent: {}
+[0.700757] (-) TimerEvent: {}
+[0.728156] (homework_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[0.728461] (homework_pkg) StderrLine: {'line': b'  By not providing "Findrclpp.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.728571] (homework_pkg) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "rclpp", but\n'}
+[0.728659] (homework_pkg) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.728740] (homework_pkg) StderrLine: {'line': b'\n'}
+[0.728813] (homework_pkg) StderrLine: {'line': b'  Could not find a package configuration file provided by "rclpp" with any of\n'}
+[0.728885] (homework_pkg) StderrLine: {'line': b'  the following names:\n'}
+[0.728955] (homework_pkg) StderrLine: {'line': b'\n'}
+[0.729024] (homework_pkg) StderrLine: {'line': b'    rclppConfig.cmake\n'}
+[0.729094] (homework_pkg) StderrLine: {'line': b'    rclpp-config.cmake\n'}
+[0.729177] (homework_pkg) StderrLine: {'line': b'\n'}
+[0.729370] (homework_pkg) StderrLine: {'line': b'  Add the installation prefix of "rclpp" to CMAKE_PREFIX_PATH or set\n'}
+[0.729450] (homework_pkg) StderrLine: {'line': b'  "rclpp_DIR" to a directory containing one of the above files.  If "rclpp"\n'}
+[0.729518] (homework_pkg) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.729608] (homework_pkg) StderrLine: {'line': b'  installed.\n'}
+[0.729671] (homework_pkg) StderrLine: {'line': b'\n'}
+[0.729733] (homework_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.729795] (homework_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.729870] (homework_pkg) StdoutLine: {'line': b'See also "/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[0.734253] (homework_pkg) CommandEnded: {'returncode': 1}
+[0.759059] (homework_pkg) JobEnded: {'identifier': 'homework_pkg', 'rc': 1}
+[0.770379] (-) EventReactorShutdown: {}

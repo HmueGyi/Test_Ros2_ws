@@ -1,0 +1,47 @@
+[0.014s] Invoking command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hmuegyi/Documents/Test_Ros2_ws/src/homework_pkg -DCMAKE_INSTALL_PREFIX=/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg
+[0.030s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.212s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.296s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.306s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.321s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.450s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.590s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.632s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.694s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.711s] -- Looking for pthread.h
+[0.807s] -- Looking for pthread.h - found
+[0.808s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.904s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.905s] -- Found Threads: TRUE  
+[0.983s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.028s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.054s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.159s] -- Added test 'lint_cmake' to check CMake code style
+[1.161s] -- Added test 'xmllint' to check XML markup files
+[1.163s] -- Configuring done
+[1.170s] -- Generating done
+[1.172s] -- Build files have been written to: /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg
+[1.184s] Invoked command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hmuegyi/Documents/Test_Ros2_ws/src/homework_pkg -DCMAKE_INSTALL_PREFIX=/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg
+[1.186s] Invoking command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg -- -j12 -l12
+[1.242s] Invoked command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg -- -j12 -l12
+[1.256s] Invoking command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg
+[1.265s] -- Install configuration: ""
+[1.265s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/package_run_dependencies/homework_pkg
+[1.265s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/parent_prefix_path/homework_pkg
+[1.266s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/ament_prefix_path.sh
+[1.266s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/ament_prefix_path.dsv
+[1.266s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/path.sh
+[1.266s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/path.dsv
+[1.267s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.bash
+[1.267s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.sh
+[1.267s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.zsh
+[1.267s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.dsv
+[1.268s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/package.dsv
+[1.268s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/packages/homework_pkg
+[1.268s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/cmake/homework_pkgConfig.cmake
+[1.268s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/cmake/homework_pkgConfig-version.cmake
+[1.269s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/package.xml
+[1.272s] Invoked command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg
