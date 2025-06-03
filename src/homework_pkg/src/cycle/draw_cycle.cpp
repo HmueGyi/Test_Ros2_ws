@@ -14,7 +14,7 @@ public:
   DrawCycle() : Node("draw_cycle_node")
   {
     // Create a publisher to send velocity commands to the turtle
-    publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
+    publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10); //twist for velecity commands
 
     // Create a timer to call publish_cmd() every 100 ms
     timer_ = this->create_wall_timer(
