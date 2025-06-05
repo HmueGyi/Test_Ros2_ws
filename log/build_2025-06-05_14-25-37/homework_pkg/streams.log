@@ -1,0 +1,37 @@
+[0.023s] Invoking command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg -- -j12 -l12
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[0.154s] [ 80%] Built target increment_publisher
+[0.155s] [ 80%] [32mBuilding CXX object CMakeFiles/draw_cyc.dir/src/cycle/draw_cycle.cpp.o[0m
+[0.155s] [ 80%] [32mBuilding CXX object CMakeFiles/draw_square.dir/src/square/draw_square.cpp.o[0m
+[0.155s] [ 80%] Built target subscriber
+[0.155s] [ 80%] Built target increment_num5_publisher
+[5.473s] [100%] [32m[1mLinking CXX executable draw_square[0m
+[5.473s] [100%] [32m[1mLinking CXX executable draw_cyc[0m
+[5.735s] [100%] Built target draw_cyc
+[5.736s] [100%] Built target draw_square
+[5.753s] Invoked command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg -- -j12 -l12
+[5.756s] Invoking command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg
+[5.767s] -- Install configuration: ""
+[5.767s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_cyc
+[5.771s] -- Set runtime path of "/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_cyc" to ""
+[5.771s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_square
+[5.773s] -- Set runtime path of "/home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/draw_square" to ""
+[5.773s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/increment_publisher
+[5.774s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/increment_num5_publisher
+[5.775s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/lib/homework_pkg/subscriber
+[5.775s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/package_run_dependencies/homework_pkg
+[5.775s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/parent_prefix_path/homework_pkg
+[5.775s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/ament_prefix_path.sh
+[5.776s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/ament_prefix_path.dsv
+[5.776s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/path.sh
+[5.776s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/environment/path.dsv
+[5.776s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.bash
+[5.776s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.sh
+[5.776s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.zsh
+[5.777s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/local_setup.dsv
+[5.777s] -- Installing: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/package.dsv
+[5.777s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/ament_index/resource_index/packages/homework_pkg
+[5.777s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/cmake/homework_pkgConfig.cmake
+[5.777s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/cmake/homework_pkgConfig-version.cmake
+[5.777s] -- Up-to-date: /home/hmuegyi/Documents/Test_Ros2_ws/install/homework_pkg/share/homework_pkg/package.xml
+[5.781s] Invoked command in '/home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hmuegyi/Documents/Test_Ros2_ws/build/homework_pkg

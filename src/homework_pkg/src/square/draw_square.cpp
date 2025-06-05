@@ -1,5 +1,3 @@
-// File: src/cycle/draw_cycle.cpp
-
 #include <chrono>
 #include <memory>
 #include "rclcpp/rclcpp.hpp"
@@ -11,6 +9,9 @@ class DrawSquare : public rclcpp::Node
 {
 public:
   DrawSquare() : Node("draw_square_node"), step_(0), phase_(0)
+  // step_ → တစ်ချောင်းစီမှာလှုပ်ရှားတာကို count လုပ်တယ်။
+
+  // phase_ → 0 ဆိုရင် တည့်တည့်သွား phase, 1 ဆိုရင် လှည့်ဖို့ phase ဖြစ်တယ်။
   {
     publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
     timer_ = this->create_wall_timer(100ms, std::bind(&DrawSquare::publish_cmd, this));
